@@ -1,0 +1,64 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6f0ff; /* Light blue close to white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#title{
+    font-weight: bold;
+    font-family: "Copperplate", Copperplate, sans-serif;
+    font-size: 70px;
+}
+
+/* Container box */
+#options{
+  width: 100%;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Each checkbox group */
+.item {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* Button */
+#mySubmit {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+  width: 310px;
+}
+
+#mySubmit:hover {
+  background-color: #0056b3;
+}
+
+/* Password field */
+#password,#noChar {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 290px;
+}
